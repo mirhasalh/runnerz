@@ -1,0 +1,89 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Eclipse ###
+*.pydevproject
+.project
+.metadata
+bin/
+tmp/
+*.bak
+*.swp
+*.log
+*.orig
+*.tmp
+*.class
+*.war
+*.ear
+
+### VS Code ###
+.vscode/
+.history/
+
+### MacOS ###
+.DS_Store
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Linux ###
+*.swp
+*.swo
+*~
+
+### Logs ###
+*.log
+
+### Maven ###
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
+
+### Gradle ###
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+*.gradle
+.gradle-cache/
+
+### Miscellaneous ###
+*.env
+.env.*
+*.bak
+*.tmp
+*.lock
+
+### Tool-Specific ###
+# Lombok config
+lombok.config

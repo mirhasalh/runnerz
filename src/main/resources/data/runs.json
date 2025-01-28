@@ -1,0 +1,84 @@
+{
+  "runs": [
+    {
+      "id": 1,
+      "title": "Morning Jog",
+      "startedOn": "2025-01-28T06:30:00.000Z",
+      "endedOn": "2025-01-28T07:00:00.000Z",
+      "miles": 3,
+      "location": "OUTDOOR"
+    },
+    {
+      "id": 2,
+      "title": "Treadmill Run",
+      "startedOn": "2025-01-28T08:15:00.000Z",
+      "endedOn": "2025-01-28T08:45:00.000Z",
+      "miles": 2,
+      "location": "INDOOR"
+    },
+    {
+      "id": 3,
+      "title": "Park Walk",
+      "startedOn": "2025-01-28T09:00:00.000Z",
+      "endedOn": "2025-01-28T09:30:00.000Z",
+      "miles": 1,
+      "location": "OUTDOOR"
+    },
+    {
+      "id": 4,
+      "title": "Mall Stroll",
+      "startedOn": "2025-01-28T10:00:00.000Z",
+      "endedOn": "2025-01-28T10:45:00.000Z",
+      "miles": 1,
+      "location": "INDOOR"
+    },
+    {
+      "id": 5,
+      "title": "Evening Run",
+      "startedOn": "2025-01-28T17:30:00.000Z",
+      "endedOn": "2025-01-28T18:00:00.000Z",
+      "miles": 4,
+      "location": "OUTDOOR"
+    },
+    {
+      "id": 6,
+      "title": "Gym Circuit",
+      "startedOn": "2025-01-28T18:30:00.000Z",
+      "endedOn": "2025-01-28T19:00:00.000Z",
+      "miles": 2,
+      "location": "INDOOR"
+    },
+    {
+      "id": 7,
+      "title": "Trail Hike",
+      "startedOn": "2025-01-28T11:00:00.000Z",
+      "endedOn": "2025-01-28T12:30:00.000Z",
+      "miles": 6,
+      "location": "OUTDOOR"
+    },
+    {
+      "id": 8,
+      "title": "Indoor Track Walk",
+      "startedOn": "2025-01-28T13:00:00.000Z",
+      "endedOn": "2025-01-28T13:45:00.000Z",
+      "miles": 2,
+      "location": "INDOOR"
+    },
+    {
+      "id": 9,
+      "title": "Forest Run",
+      "startedOn": "2025-01-28T16:00:00.000Z",
+      "endedOn": "2025-01-28T16:45:00.000Z",
+      "miles": 5,
+      "location": "OUTDOOR"
+    },
+    {
+      "id": 10,
+      "title": "Office Walk",
+      "startedOn": "2025-01-28T15:00:00.000Z",
+      "endedOn": "2025-01-28T15:15:00.000Z",
+      "miles": 1,
+      "location": "INDOOR"
+    }
+  ]
+}

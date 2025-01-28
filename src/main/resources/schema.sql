@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS Run (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(250) NOT NULL,
+    started_on TIMESTAMP NOT NULL,
+    ended_on TIMESTAMP NOT NULL,
+    miles INT NOT NULL,
+    location VARCHAR(10) NOT NULL,
+    PRIMARY KEY (id)
+);

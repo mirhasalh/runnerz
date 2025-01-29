@@ -23,15 +23,6 @@ public class RunJsonDataLoader implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        int count = runRepository.count();
-        log.info("Runs count: {}", count);
-
-        //  FIXME: There's an unknown record created when the application is started
-        //  Ugly work-around to delete an unknown created record
-        if (count > 0) {
-            runRepository.delete(1);
-        }
-
         if (runRepository.count() == 0) {
             try (InputStream inputStream = TypeReference.class.getResourceAsStream("/data/runs.json")) {
                 Runs allRuns = objectMapper.readValue(inputStream, Runs.class);
